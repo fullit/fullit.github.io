@@ -2,11 +2,16 @@
     /* For mobile phones: */
     /* Style for our header texts
     * --------------------------------------- */
+
     .jumbotronic h1{
   
       font-family: 'Alfa Slab One', cursive;
       font-size: 3em;
       padding: 1rem 1rem;
+      color: #ffffff;
+    }
+    .jumbotronic a{
+  
       color: #ffffff;
     }
 
@@ -86,7 +91,11 @@
       font-size: 2em;
       padding: 1.5rem 1.5rem;
       color: #ffffff;
-    }    
+    }  
+    .jumbotronic a{
+  
+      color: #ffffff;
+    }  
     h1{
       font-size: 5em;
       font-family: 'Alfa Slab One', cursive;
@@ -271,6 +280,10 @@
       padding: 1rem 1rem;
       color: #ffffff;
     }
+    .jumbotronic a{
+  
+      color: #ffffff;
+    }    
 
     .jumbotronic h2{
       font-family: 'Gentium Book Basic', cursive;
@@ -475,6 +488,10 @@
         padding: 1.5rem 1.5rem;
         color: #ffffff;
       }
+    .jumbotronic a{
+  
+      color: #ffffff;
+    }      
 
       .sidebar{visibility: hidden;}
       /*.intro-scroll-down {
