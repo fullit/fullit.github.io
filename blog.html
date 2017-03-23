@@ -28,7 +28,9 @@ canonical: https://fullit.github.io/blog
                 <h2>
                     <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
                 </h2>
-                <div><img src="{{ BASE_PATH }}/assets/img/{{ post.img }}" alt="{{ post.title }} image" class="img-rounded img-responsive"></div>
+                {% if page.tagline %}
+                  <div><img src="{{ BASE_PATH }}/assets/img/{{ post.img }}" alt="{{ post.title }} image" class="img-rounded img-responsive"></div>
+                {% endif %}
                 <p class="lead">
                     Tagged under: {{post.tags | array_to_sentence_string}}
                 </p>
