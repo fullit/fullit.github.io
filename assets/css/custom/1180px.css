@@ -1,0 +1,122 @@
+/**********************************************
+* 1180 CSS Grid System - Fluid
+* by Chris Blackwell / chrisblackwell.me
+**********************************************/
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1180px;
+    margin: 0 auto;
+}
+.flexbox {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.row {
+    margin: 20px 0;
+}
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+/* Sets default values on all columns */
+[class*="span"] {
+    margin-right: 2%;
+    float: left;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+}
+    [class*="span"]:last-child {
+        margin-right: 0;
+    }
+
+    .prototype [class*="span"] {
+        background: #ececec;
+        border-radius: 4px;
+        padding: 15px;
+        text-align: center;
+    }
+
+.span1 {
+    width: 6.5%;
+}
+.span2 {
+    width: 15%;
+}
+.span3 {
+    width: 23.5%;
+}
+.span4 {
+    width: 32%;
+}
+.span5 {
+    width: 40.5%;
+}
+.span6 {
+    width: 49%;
+}
+.col7 {
+    width: 57.5%;
+}
+.span8 {
+    width: 66%;
+}
+.span9 {
+    width: 74.5%;
+}
+.span10 {
+    width: 83%;
+}
+.span11 {
+    width: 91.5%;
+}
+.span12 {
+    width: 100%;
+    float: none;
+}
+
+/**********************************
+* Smaller Screens
+**********************************/
+@media only screen and (max-width: 1200px) {
+    .wrap {
+        width: 960px;
+    }
+}
+
+/**********************************
+* Tablets
+**********************************/
+@media only screen and (max-width: 1024px) {
+    .wrap {
+        width: 760px;
+    }
+}
+
+/**********************************
+* Mobile Devices
+* - All columns are full width
+**********************************/
+@media only screen and (max-width: 767px) {
+    .wrap {
+        width: 96%;
+    }
+    .row {
+        margin: 0;
+    }
+    [class*="span"] {
+        margin: 15px 0;
+        float: none;
+        width: 100%;
+    }
+}

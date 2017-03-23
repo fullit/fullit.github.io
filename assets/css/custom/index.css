@@ -1,0 +1,64 @@
+@media only screen and (orientation: landscape) {
+
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(/assets/img/big/universe1.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  #section1{
+    background-image: url(/assets/img/big/universe2.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  #section2{
+    background-image: url(/assets/img/big/universe3.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section3{
+    background-image: url(/assets/img/big/universe4.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section4{
+    background-image: url(/assets/img/big/universe5.jpg);
+    padding: 6% 0 0 0;
+  }
+
+
+
+}
+
+@media only screen and (orientation: portrait) {
+
+
+
+      /* Defining each section background and styles on portrait orientation
+      * --------------------------------------- */
+      #section0{
+        background-image: url(/assets/img/tablet/universe1.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      #section1{
+        background-image: url(/assets/img/tablet/universe2.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      #section2{
+        background-image: url(/assets/img/tablet/universe3.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section3{
+        background-image: url(/assets/img/tablet/universe4.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section4{
+        background-image: url(/assets/img/tablet/universe5.jpg);
+        padding: 6% 0 0 0;
+      }
+
+
+
+
+}

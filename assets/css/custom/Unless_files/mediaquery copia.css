@@ -1,0 +1,583 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 2.5em;
+      font-family: 'Alfa Slab One', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 1em;
+      font-family: 'Gentium Book Basic', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 0.6em;
+      font-family: 'Gentium Book Basic', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.3em;
+      font-family: 'Gentium Book Basic', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+    /*CALL TO ACTION CLASSES FOR RESPONSIVNESS*/
+
+    .content__container{
+    	font-size: 1.5em !important;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 5em;
+      font-family: 'Alfa Slab One', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 3em;
+      font-family: 'Gentium Book Basic', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 2em;
+      font-family: 'Gentium Book Basic', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 1.5em;
+      font-family: 'Gentium Book Basic', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+    /*CALL TO ACTION CLASSES FOR RESPONSIVNESS*/
+
+    .content__container {
+    	font-size: 2em !important;
+    }
+
+    /*SCROLL DOWN ICON
+    ------------------------------------------------------------------------*/
+
+
+    /*.intro-scroll-down {
+        position: absolute;
+        z-index: 1;
+        bottom: 30px;
+        left: 50%;
+        margin-left: -15px;
+    }*/
+    .intro-scroll-down {
+        position: absolute;
+        margin-top: 2em;
+        z-index: 1;
+        left: 50%;
+        margin-left: -15px;
+    }
+
+        .intro-scroll-down .mouse {
+            position: relative;
+            display: block;
+            width: 30px;
+            height: 45px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 2px solid #fff;
+            border-radius: 23px;
+            -moz-border-radius: 23px;
+            -webkit-border-radius: 23px;
+        }
+
+            .intro-scroll-down .mouse .mouse-dot {
+                position: absolute;
+                display: block;
+                top: 29%;
+                left: 50%;
+                width: 6px;
+                height: 6px;
+                margin: -3px 0 0 -3px;
+                background: #fff;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -webkit-animation: ani-mouse 2.5s linear infinite;
+                -moz-animation: ani-mouse 2.5s linear infinite;
+                animation: ani-mouse 2.5s linear infinite;
+            }
+
+    .background--light .intro-scroll-down .mouse {
+        border: 2px solid #323232;
+    }
+
+        .background--light .intro-scroll-down .mouse .mouse-dot {
+            background: #323232;
+        }
+
+    @-webkit-keyframes ani-mouse {
+        0% {
+            opacity: 1;
+            top: 29%;
+        }
+
+        15% {
+            opacity: 1;
+            top: 50%;
+        }
+
+        50% {
+            opacity: 0;
+            top: 50%;
+        }
+
+        100% {
+            opacity: 0;
+            top: 29%;
+        }
+    }
+
+    @-moz-keyframes ani-mouse {
+        0% {
+            opacity: 1;
+            top: 29%;
+        }
+
+        15% {
+            opacity: 1;
+            top: 50%;
+        }
+
+        50% {
+            opacity: 0;
+            top: 50%;
+        }
+
+        100% {
+            opacity: 0;
+            top: 29%;
+        }
+    }
+
+    @keyframes ani-mouse {
+        0% {
+            opacity: 1;
+            top: 29%;
+        }
+
+        15% {
+            opacity: 1;
+            top: 50%;
+        }
+
+        50% {
+            opacity: 0;
+            top: 50%;
+        }
+
+        100% {
+            opacity: 0;
+            top: 29%;
+        }
+    }
+
+
+
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 5em;
+      font-family: 'Alfa Slab One', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 3em;
+      font-family: 'Gentium Book Basic', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 2em;
+      font-family: 'Gentium Book Basic', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 1.5em;
+      font-family: 'Gentium Book Basic', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+    /*CALL TO ACTION CLASSES FOR RESPONSIVNESS*/
+
+    .content__container {
+    	font-size: 2em !important;
+    }
+
+    /*SCROLL DOWN ICON
+    ------------------------------------------------------------------------*/
+
+
+    /*.intro-scroll-down {
+        position: absolute;
+        z-index: 1;
+        bottom: 30px;
+        left: 50%;
+        margin-left: -15px;
+    }*/
+    .intro-scroll-down {
+        position: absolute;
+        margin-top: 2em;
+        z-index: 1;
+        left: 50%;
+        margin-left: -15px;
+    }
+
+        .intro-scroll-down .mouse {
+            position: relative;
+            display: block;
+            width: 30px;
+            height: 45px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 2px solid #fff;
+            border-radius: 23px;
+            -moz-border-radius: 23px;
+            -webkit-border-radius: 23px;
+        }
+
+            .intro-scroll-down .mouse .mouse-dot {
+                position: absolute;
+                display: block;
+                top: 29%;
+                left: 50%;
+                width: 6px;
+                height: 6px;
+                margin: -3px 0 0 -3px;
+                background: #fff;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -webkit-animation: ani-mouse 2.5s linear infinite;
+                -moz-animation: ani-mouse 2.5s linear infinite;
+                animation: ani-mouse 2.5s linear infinite;
+            }
+
+    .background--light .intro-scroll-down .mouse {
+        border: 2px solid #323232;
+    }
+
+        .background--light .intro-scroll-down .mouse .mouse-dot {
+            background: #323232;
+        }
+
+    @-webkit-keyframes ani-mouse {
+        0% {
+            opacity: 1;
+            top: 29%;
+        }
+
+        15% {
+            opacity: 1;
+            top: 50%;
+        }
+
+        50% {
+            opacity: 0;
+            top: 50%;
+        }
+
+        100% {
+            opacity: 0;
+            top: 29%;
+        }
+    }
+
+    @-moz-keyframes ani-mouse {
+        0% {
+            opacity: 1;
+            top: 29%;
+        }
+
+        15% {
+            opacity: 1;
+            top: 50%;
+        }
+
+        50% {
+            opacity: 0;
+            top: 50%;
+        }
+
+        100% {
+            opacity: 0;
+            top: 29%;
+        }
+    }
+
+    @keyframes ani-mouse {
+        0% {
+            opacity: 1;
+            top: 29%;
+        }
+
+        15% {
+            opacity: 1;
+            top: 50%;
+        }
+
+        50% {
+            opacity: 0;
+            top: 50%;
+        }
+
+        100% {
+            opacity: 0;
+            top: 29%;
+        }
+    }
+
+
+
+
+}
+
+
+@media only screen and (orientation: landscape) {
+
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(https://fullit.github.io/assets/img/big/universe1.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  /*
+  #section0 h1{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+  }*/
+
+  #section1{
+    background-image: url(https://fullit.github.io/assets/img/big/universe2.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  #section2{
+    background-image: url(https://fullit.github.io/assets/img/big/universe3.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section3{
+    background-image: url(https://fullit.github.io/assets/img/big/universe4.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section4{
+    background-image: url(https://fullit.github.io/assets/img/big/universe5.jpg);
+    padding: 6% 0 0 0;
+  }
+
+
+
+}
+
+@media only screen and (orientation: portrait) {
+
+
+
+      /* Defining each section background and styles on portrait orientation
+      * --------------------------------------- */
+      #section0{
+        background-image: url(https://fullit.github.io/assets/img/tablet/universe1.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      /*
+      #section0 h1{
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+      }*/
+
+      #section1{
+        background-image: url(https://fullit.github.io/assets/img/tablet/universe2.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      #section2{
+        background-image: url(https://fullit.github.io/assets/img/tablet/universe3.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section3{
+        background-image: url(https://fullit.github.io/assets/img/tablet/universe4.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section4{
+        background-image: url(https://fullit.github.io/assets/img/tablet/universe5.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      /*SCROLL DOWN ICON
+      ------------------------------------------------------------------------*/
+
+
+      /*.intro-scroll-down {
+          position: absolute;
+          z-index: 1;
+          bottom: 30px;
+          left: 50%;
+          margin-left: -15px;
+      }*/
+      .intro-scroll-down {
+          position: absolute;
+          margin-top: 2em;
+          z-index: 1;
+          left: 50%;
+          margin-left: -15px;
+      }
+
+          .intro-scroll-down .mouse {
+              position: relative;
+              display: block;
+              width: 30px;
+              height: 45px;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              border: 2px solid #fff;
+              border-radius: 23px;
+              -moz-border-radius: 23px;
+              -webkit-border-radius: 23px;
+          }
+
+              .intro-scroll-down .mouse .mouse-dot {
+                  position: absolute;
+                  display: block;
+                  top: 29%;
+                  left: 50%;
+                  width: 6px;
+                  height: 6px;
+                  margin: -3px 0 0 -3px;
+                  background: #fff;
+                  border-radius: 50%;
+                  -moz-border-radius: 50%;
+                  -webkit-border-radius: 50%;
+                  -webkit-animation: ani-mouse 2.5s linear infinite;
+                  -moz-animation: ani-mouse 2.5s linear infinite;
+                  animation: ani-mouse 2.5s linear infinite;
+              }
+
+      .background--light .intro-scroll-down .mouse {
+          border: 2px solid #323232;
+      }
+
+          .background--light .intro-scroll-down .mouse .mouse-dot {
+              background: #323232;
+          }
+
+      @-webkit-keyframes ani-mouse {
+          0% {
+              opacity: 1;
+              top: 29%;
+          }
+
+          15% {
+              opacity: 1;
+              top: 50%;
+          }
+
+          50% {
+              opacity: 0;
+              top: 50%;
+          }
+
+          100% {
+              opacity: 0;
+              top: 29%;
+          }
+      }
+
+      @-moz-keyframes ani-mouse {
+          0% {
+              opacity: 1;
+              top: 29%;
+          }
+
+          15% {
+              opacity: 1;
+              top: 50%;
+          }
+
+          50% {
+              opacity: 0;
+              top: 50%;
+          }
+
+          100% {
+              opacity: 0;
+              top: 29%;
+          }
+      }
+
+      @keyframes ani-mouse {
+          0% {
+              opacity: 1;
+              top: 29%;
+          }
+
+          15% {
+              opacity: 1;
+              top: 50%;
+          }
+
+          50% {
+              opacity: 0;
+              top: 50%;
+          }
+
+          100% {
+              opacity: 0;
+              top: 29%;
+          }
+      }
+
+
+
+
+
+}

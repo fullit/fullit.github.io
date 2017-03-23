@@ -1,0 +1,2168 @@
+/*
+  Based on:
+  1. http://stephen.io/mediaqueries
+  2. https://gist.github.com/needim/d15fdc2ac133d8078f7c
+  3. https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+*/
+
+
+/* iPhone 6 in landscape */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 3em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 0.7em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  /*
+  #section0 h1{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+  }*/
+
+  #section1{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  #section2{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section3{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section4{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+    padding: 6% 0 0 0;
+  }
+
+
+
+}
+
+/* iPhone 6 in portrait */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 3em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 0.7em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+
+
+
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+
+
+
+}
+
+/* iPhone 6 Plus in landscape */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 3em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 0.7em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  /*
+  #section0 h1{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+  }*/
+
+  #section1{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  #section2{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section3{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section4{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+    padding: 6% 0 0 0;
+  }
+
+
+
+}
+
+/* iPhone 6 Plus in portrait */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 3em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 0.7em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+
+
+
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+
+
+
+
+
+}
+
+
+/* iPhone 5 & 5S in landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 3em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 0.7em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  /*
+  #section0 h1{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+  }*/
+
+  #section1{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  #section2{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section3{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section4{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+    padding: 6% 0 0 0;
+  }
+
+}
+
+/* iPhone 5 & 5S in portrait */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 3em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 0.7em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+}
+
+/*
+  iPhone 2G, 3G, 4, 4S Media Queries
+  It's noteworthy that these media queries are also the same for iPod Touch generations 1-4.
+*/
+
+
+/* iPhone 2G-4S in landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : landscape) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 3em !important;
+    font-family: 'Baloo', cursive !important;
+    color: #fff !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+  h2{
+    font-size: 2em !important;
+    font-family: 'Indie Flower', cursive !important;
+    color: #fff !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+  h3{
+    font-size: 1.5em !important;
+    font-family: 'Indie Flower', cursive !important;
+    color: #fff !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+  h4{
+    font-size: 0.7em !important;
+    font-family: 'Indie Flower', cursive !important;
+    color: #fff !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+
+
+
+}
+
+/* iPhone 2G-4S in portrait */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 3em !important;
+    font-family: 'Baloo', cursive !important;
+    color: #fff !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+  h2{
+    font-size: 2em !important;
+    font-family: 'Indie Flower', cursive !important;
+    color: #fff !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+  h3{
+    font-size: 1.5em !important;
+    font-family: 'Indie Flower', cursive !important;
+    color: #fff !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+  h4{
+    font-size: 0.7em !important;
+    font-family: 'Indie Flower', cursive !important;
+    color: #fff !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  /*
+  #section0 h1{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+  }*/
+
+  #section1{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  #section2{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section3{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section4{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+    padding: 6% 0 0 0;
+  }
+
+
+
+
+
+}
+
+
+/* iPad in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 4em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 3em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 1em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+
+      /* Defining each sectino background and styles
+      * --------------------------------------- */
+      #section0{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      /*
+      #section0 h1{
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+      }*/
+
+      #section1{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      #section2{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section3{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section4{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+        padding: 6% 0 0 0;
+      }
+
+
+
+
+
+}
+
+/* iPad in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 4em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 3em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 1em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  /*
+  #section0 h1{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+  }*/
+
+  #section1{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  #section2{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section3{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section4{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+    padding: 6% 0 0 0;
+  }
+
+
+}
+
+
+/* Galaxy S3 portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 3em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.7em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+}
+
+/* Galaxy S3 landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 3em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.7em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+
+      /* Defining each sectino background and styles
+      * --------------------------------------- */
+      #section0{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      /*
+      #section0 h1{
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+      }*/
+
+      #section1{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      #section2{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section3{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section4{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+        padding: 6% 0 0 0;
+      }
+
+
+
+
+
+}
+
+
+/* Galaxy S4 portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 3em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.7em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+
+
+}
+
+/* Galaxy S4 landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 3em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.7em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+
+      /* Defining each sectino background and styles
+      * --------------------------------------- */
+      #section0{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      /*
+      #section0 h1{
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+      }*/
+
+      #section1{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      #section2{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section3{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section4{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+        padding: 6% 0 0 0;
+      }
+
+
+
+
+
+}
+
+
+/* Galaxy S5 portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 3em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.7em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+
+}
+
+/* Galaxy S5 landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 3em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.7em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+      /* Defining each sectino background and styles
+      * --------------------------------------- */
+      #section0{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      /*
+      #section0 h1{
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+      }*/
+
+      #section1{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      #section2{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section3{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section4{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+        padding: 6% 0 0 0;
+      }
+
+
+}
+
+/* HTC One portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 3em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.7em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+
+}
+
+/* HTC One landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 3em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.7em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+
+      /* Defining each sectino background and styles
+      * --------------------------------------- */
+      #section0{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      /*
+      #section0 h1{
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+      }*/
+
+      #section1{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      #section2{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section3{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section4{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+        padding: 6% 0 0 0;
+      }
+
+
+
+
+
+}
+
+/*
+  iPad 3 & 4 Media Queries
+  If you're looking to target only 3rd and 4th generation Retina iPads
+  (or tablets with similar resolution) to add @2x graphics,
+  or other features for the tablet's Retina display, use the following media queries.
+*/
+
+
+/* Retina iPad in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 4em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 3em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 1em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+
+
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+
+
+}
+
+/* Retina iPad in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 4em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 3em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 1em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  /*
+  #section0 h1{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+  }*/
+
+  #section1{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  #section2{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section3{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section4{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+    padding: 6% 0 0 0;
+  }
+
+
+}
+
+/*
+  iPad 1 & 2 Media Queries
+  If you're looking to supply different graphics or choose different typography
+  for the lower resolution iPad display, the media queries below will work
+  like a charm in your responsive design!
+*/
+
+/* iPad 1 & 2 in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 4em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 3em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 1em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+
+
+}
+
+/* iPad 1 & 2 in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 4em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 3em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 1em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  /*
+  #section0 h1{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+  }*/
+
+  #section1{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  #section2{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section3{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section4{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+    padding: 6% 0 0 0;
+  }
+
+
+}
+
+
+/* iPad mini in landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 4em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 3em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 1em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+
+
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+
+
+}
+
+/* iPad mini in portrait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+  /* Style for our header texts
+  * --------------------------------------- */
+  h1{
+    font-size: 4em;
+    font-family: 'Baloo', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h2{
+    font-size: 3em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h3{
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+  h4{
+    font-size: 1em;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin:0;
+    padding:0;
+  }
+
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  /*
+  #section0 h1{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+  }*/
+
+  #section1{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+    padding: 6% 0 0 0;
+  }
+
+  #section2{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section3{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section4{
+    background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+    padding: 6% 0 0 0;
+  }
+
+
+}
+
+
+/* Galaxy Tab 10.1 portrait */
+@media
+  (max-device-width: 800px)
+  and (orientation: portrait) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 4em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 3em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 1em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+}
+
+/* Galaxy Tab 10.1 landscape */
+@media
+  (max-device-width: 1280px)
+  and (orientation: landscape) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 3em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.7em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+      /* Defining each sectino background and styles
+      * --------------------------------------- */
+      #section0{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      /*
+      #section0 h1{
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+      }*/
+
+      #section1{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      #section2{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section3{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section4{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+        padding: 6% 0 0 0;
+      }
+
+
+
+
+}
+
+
+/* Asus Nexus 7 portrait */
+@media screen
+  and (device-width: 601px)
+  and (device-height: 906px)
+  and (-webkit-min-device-pixel-ratio: 1.331)
+  and (-webkit-max-device-pixel-ratio: 1.332)
+  and (orientation: portrait) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 3em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.7em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+    /* Defining each sectino background and styles
+    * --------------------------------------- */
+    #section0{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/paint.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    /*
+    #section0 h1{
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+    }*/
+
+    #section1{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/conceria.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section2{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/stampa.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section3{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/spiga.jpg);
+      padding: 6% 0 0 0;
+    }
+    #section4{
+      background-image: url(https://mestieri.github.io/mestieri-squeeze/img/tablet/creta.jpg);
+      padding: 6% 0 0 0;
+    }
+
+
+
+}
+
+/* Asus Nexus 7 landscape */
+@media screen
+  and (device-width: 601px)
+  and (device-height: 906px)
+  and (-webkit-min-device-pixel-ratio: 1.331)
+  and (-webkit-max-device-pixel-ratio: 1.332)
+  and (orientation: landscape) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 3em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 0.7em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+
+      /* Defining each sectino background and styles
+      * --------------------------------------- */
+      #section0{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      /*
+      #section0 h1{
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+      }*/
+
+      #section1{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+        padding: 6% 0 0 0;
+      }
+
+      #section2{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section3{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section4{
+        background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+        padding: 6% 0 0 0;
+      }
+
+
+
+
+
+}
+
+
+/* Laptops non-retina screens */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 5em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 3em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+
+}
+
+/* Laptops retina screens */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    h1{
+      font-size: 5em;
+      font-family: 'Baloo', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h2{
+      font-size: 3em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h3{
+      font-size: 2em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+    h4{
+      font-size: 1.5em;
+      font-family: 'Indie Flower', cursive;
+      color: #fff;
+      margin:0;
+      padding:0;
+    }
+
+}

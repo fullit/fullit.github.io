@@ -1,0 +1,49 @@
+---
+layout: page
+title: Blog
+tagline: Post blog list
+group: navigation
+img : 2.jpg
+img-mobile : 2-mobile.jpg
+---
+{% include JB/setup %}
+{% include themes/bootstrap/nav-bar.html %}
+<div class="page-header container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 id="title">{{ page.title }}</h1>
+      {% if page.tagline %}
+      <p class="lead">{{ page.tagline }}</p>{% endif %}
+    </div>
+  </div>
+</div>
+<div class="container">
+<div class="row">
+
+  <div class="col-md-8">
+
+<!-- Change the "about information" contained in /_includes/themes/bootstrap/index.html  -->
+
+  {% for post in site.posts %}
+
+                <!-- Blog Post Template on Index page -->
+                <h2>
+                    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+                </h2>
+                <div><img src="{{ BASE_PATH }}/assets/img/{{ post.img }}" alt="{{ post.title }} image" class="img-rounded img-responsive"></div>
+                <p class="lead">
+                    Tagged under: {{post.tags | array_to_sentence_string}}
+                </p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date_to_string }}</p>
+                <!-- <hr>
+                <img class="img-responsive" src="http://placehold.it/900x300" alt=""> -->
+                <hr>
+		{{ post.excerpt }}
+                <a class="btn btn-primary" href="{{ BASE_PATH }}{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+                <hr>
+
+  {% endfor %}
+  </div>
+  <div class="col-md-4">{% include side-bar.html %}</div>
+</div></div>

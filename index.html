@@ -1,0 +1,159 @@
+---
+layout: index
+title: FullIt
+tagline: Fullit make your landing page a fullpage sliding tool usefull for web marketing and advertising
+img : 1.jpg
+img-mobile : 1-mobile.jpg
+css: index.css
+js: test.js
+keywords: fullpage, html, css, landing page, jekyll, ruby, web marketing, advertising
+canonical: https://fullit.github.io
+---
+{% include JB/setup %}
+
+
+<!-- ****************** Modal subcribe box sample ************************
+<div id="demosMenu">
+	<div class="content__container">
+	<p class="content__container__text heavy"><a id="trigger-overlay" style="color:white" href="#">
+		Know <span class="pink">me</span></a>
+	</p>
+
+</div>
+</div>-->
+<div id="socialMenu">
+	{% include social-block.html %}
+</div>
+
+<div id="fullpage">
+	<div data-anchor="0section" class="section" id="section0">
+
+		<h1 class="heavy">Ready to follow <br />your <span class="pink">dreams?</span></h1>
+		<br /><h2 class="large-blur">
+			<span class="highlight-container"><span class="highlight">
+				Put your dreams on first and follow that! <a href="{{ BASE_PATH }}/lessons/2017/01/17/testing-locally">Post</a>
+			</span></span>
+
+			<br />
+
+							
+
+		</h2>
+			<div class="intro-scroll-down">
+			  <a data-menuanchor="1section" href="#1section">
+			    <span class="mouse">
+			      <span class="mouse-dot"></span>
+			    </span>
+			  </a>
+			</div>
+
+
+
+	</div>
+
+	<div data-anchor="1section" class="section" id="section1">
+			<h1 class="heavy">Start-up it <br />whit a <span class="pink">Rocket!</span></h1>
+			<br /><h2 class="large-blur">
+				<span class="highlight-container"><span class="highlight">
+					Don't be afraid and start your jurney.
+				</span></span>
+			</h2>
+
+				<div class="intro-scroll-down">
+					<a data-menuanchor="2section" href="#2section">
+						<span class="mouse">
+							<span class="mouse-dot"></span>
+						</span>
+					</a>
+				</div>
+	</div>
+
+	<div data-anchor="2section" class="section" id="section2">
+			<h1 class="heavy">Look back and <br />goodbye <span class="pink">your weaknesses!</span></h1>
+			<br /><h2 class="large-blur">
+				<span class="highlight-container"><span class="highlight">
+					Farewell to all that restrained your dream.
+				</span></span>
+			</h2>
+				<div class="intro-scroll-down">
+					<a data-menuanchor="3section" href="#3section">
+						<span class="mouse">
+							<span class="mouse-dot"></span>
+						</span>
+					</a>
+				</div>
+	</div>
+
+	<div data-anchor="3section" class="section" id="section3">
+		<h1 class="heavy">Take a trip <br />around <span class="pink">the Moon</span></h1>
+		<br /><h2>
+			<span class="highlight-container"><span class="highlight">
+				You will not want to stop here, right?
+			</span></span>
+		</h2>
+		<div class="intro-scroll-down">
+			<a data-menuanchor="4section" href="#4section">
+				<span class="mouse">
+					<span class="mouse-dot"></span>
+				</span>
+			</a>
+		</div>
+	</div>
+
+	<div data-anchor="4section" class="section" id="section4">
+		<h1 class="heavy">Always look forward <br />without <span class="pink">ever stop</span>
+		</h1><br />
+		<h2 class="large-blur">
+			<span class="highlight-container"><span class="highlight">
+				Your dream as unattainable is nearer and nearer.
+			</span></span>
+		</h2>
+		<br />
+
+		{% include ads-block.html %}
+
+		<div class="intro-scroll-down">
+			<a data-menuanchor="0section" href="#0section">
+				<span class="mouse">
+					<span class="mouse-dot"></span>
+				</span>
+
+				
+
+				<span style="color:white; margin-left:-35px;" data-menuanchor="0section" href="#0section">back to top</span>
+			</a>
+		</div>
+	</div>
+
+
+
+	<!-- FULL SCREEN MODAL SUBMIT open/close -->
+			<div class="overlay overlay-hugeinc">
+				<button type="button" class="overlay-close">Close</button>
+
+				<nav>
+					<form action="//altervista.us8.list-manage.com/subscribe/post?u=a36bd3e356847dab838227fce&amp;id=3c63d825b2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<ul>
+						<li>
+							<label>Name</label>
+						</li>
+						<li>
+							<input class="span11" type="text" name="FNAME" id="first_name" placeholder="Jonathan">
+						</li>
+						<li>
+							<label>Email</label>
+						</li>
+						<li>
+							<input class="span11" type="text" id="email" name="EMAIL" placeholder="jon@doe.com">
+						</li>
+						<li>
+							<input class="cbp-mc-submit" type="submit" value="Invia" name="subscribe" />
+						</li>
+					</ul>
+				</form>
+				</nav>
+
+			</div>
+
+
+</div>

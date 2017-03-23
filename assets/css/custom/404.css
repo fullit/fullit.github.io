@@ -1,0 +1,31 @@
+@media only screen and (orientation: landscape) {
+
+  /* Defining each sectino background and styles
+  * --------------------------------------- */
+  #section0{
+    background-image: url(/assets/img/big/lost_in_404_space.jpg);
+    padding: 6% 0 0 0;
+  }
+
+
+
+
+}
+
+@media only screen and (orientation: portrait) {
+
+
+
+      /* Defining each section background and styles on portrait orientation
+      * --------------------------------------- */
+      #section0{
+        background-image: url(/assets/img/tablet/lost_in_404_space.jpg);
+        padding: 6% 0 0 0;
+      }
+
+   
+
+
+
+
+}

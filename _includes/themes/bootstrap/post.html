@@ -1,0 +1,150 @@
+<div id="fullpage">
+  <div class="section" id="section0">
+    <div style="background-size: cover; background-image:url('{{ BASE_PATH }}/assets/img/{% if page.img %}{{ page.img }}{% else %}generic.jpg{% endif %}')" class="slide">       
+        <div class="jumbotronic" style="text-align: center">
+          <h1 class="heavy">{{ page.title }}</h1>
+          {% if page.tagline %} <h2 class="heavy">{{ page.tagline }}</h2>{% endif %}
+        </div>
+    </div>        
+    {% if page.title2 %}<div style="background-size: cover; background-image:url('{{ BASE_PATH }}/assets/img/{% if page.img2 %}{{ page.img2 }}{% else %}generic.jpg{% endif %}')" class="slide">
+    <div class="jumbotronic" style="text-align: center">
+      <h1 class="heavy">{{ page.title2 }}</h1>
+    </div>{% endif %}
+    </div>
+ 
+    {% if page.title3 %}<div style="background-size: cover; background-image:url('{{ BASE_PATH }}/assets/img/{% if page.img3 %}{{ page.img3 }}{% else %}generic.jpg{% endif %}')" class="slide">
+    <div class="jumbotronic" style="text-align: center">
+      <h1 class="heavy">{{ page.title3 }}</h1>{% endif %}
+    </div>
+  </div>
+ </div>
+</div>
+
+{% include themes/bootstrap/nav-bar.html %}
+<br />
+<br />
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main post">
+
+          {% include ads-block.html %}
+          <br />
+           {{ content }}
+          <br />
+          {% include ads-block.html %}
+          <br />
+          <div class="row">
+
+                <div class="col-sm-6">
+                
+                   {% include social-share.html %} 
+
+                </div>
+                <div class="col-sm-6">
+                {% unless page.categories == empty %}
+                      <h4 class="lead">
+                            Categories | {{page.categories | array_to_sentence_string}}
+                      </p>
+                {% endunless %}
+                </div>
+                <!--<div class="col-sm-4">
+                  {% unless page.tags == empty %}
+                      <h4 class="lead">
+                        Tags | {{page.tags | array_to_sentence_string}}
+                      </p>
+                  {% endunless %}
+                </div>-->
+
+
+
+          </div>
+          <hr>
+          <div>
+            <h2>We Love  New Opinions <br /><small class="subtitle">Leave us a comment or a question</small></h2>
+            {% include JB/comments %}
+          </div>
+
+
+                
+
+        </div>
+
+        <div class="col-sm-3 offset-sm-1 blog-sidebar affix">
+          {% include side-bar.html %}
+        </div>          
+      </div>
+
+            <div class="row">          
+              <div class="col-sm-6"  style="text-align: center;">
+                <h2>Previous post</h2>
+                  <div>
+                    {% if page.previous %}
+                    <h3><a class="" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; {{ page.previous.title }}<span data-letters="&larr; {{ page.previous.title }}"></span><span data-letters="&larr; {{ page.previous.title }}"></span></a></h3>
+                    {% else %}
+                    <h3><a class="disabled" href="#" title="No more old posts">&larr; No more old posts<span data-letters="&larr; No more old posts"></span><span data-letters="&larr; No more old posts"></span></a></h3>
+                     {% endif %}
+                   </div>
+                      
+              </div>
+              
+              <div class="col-sm-6"  style="text-align: center;">
+
+                      <h2>Next Post</h2>
+                          <div>
+                            {% if page.next %}
+                              <h3><a style="margin: 0 auto;" class="" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }} &rarr;<span data-letters="{{ page.next.title }} &rarr;"></span><span data-letters="{{ page.next.title }} &rarr;"></span></a></h3>
+                            {% else %}
+                              <h3><a style="margin: 0 auto;" class="disabled" href="#" title="No more new posts">No more new posts &rarr;<span data-letters="&larr; No more new posts"></span><span data-letters="&larr; No more new posts"></span></a></h3>
+                            {% endif %}
+                          </div>
+              </div>
+            </div>
+
+    </div>
+
+
+          <!-- FULL SCREEN MODAL SUBMIT open/close -->
+      <div class="overlay overlay-hugeinc">
+        <button type="button" class="overlay-close">Close</button>
+
+        <nav>
+          <form action="//altervista.us8.list-manage.com/subscribe/post?u=a36bd3e356847dab838227fce&amp;id=3c63d825b2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <ul>
+            <li>
+              <label>Name</label>
+            </li>
+            <li>
+              <input class="span11" type="text" name="FNAME" id="first_name" placeholder="Jonathan">
+            </li>
+            <li>
+              <label>Email</label>
+            </li>
+            <li>
+              <input class="span11" type="text" id="email" name="EMAIL" placeholder="jon@doe.com">
+            </li>
+            <li>
+              <input class="cbp-mc-submit" type="submit" value="Invia" name="subscribe" />
+            </li>
+          </ul>
+        </form>
+        </nav>
+
+      </div>
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
