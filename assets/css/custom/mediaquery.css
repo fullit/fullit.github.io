@@ -277,6 +277,9 @@
     
     /* Style for our header texts
     * --------------------------------------- */
+    .pcview {
+      display: none !important;
+    }
     .jumbotronic h1{
   
       font-family: 'Alfa Slab One', cursive;
