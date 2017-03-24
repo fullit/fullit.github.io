@@ -2,7 +2,9 @@
     /* For mobile phones: */
     /* Style for our header texts
     * --------------------------------------- */
-
+    .pcview{
+      visibility: hidden;
+    }
     .jumbotronic h1{
   
       font-family: 'Alfa Slab One', cursive;
@@ -76,7 +78,9 @@
 
     /* Style for our header texts
     * --------------------------------------- */
-    
+    .mobileview{
+      visibility: hidden;
+    }
     .sidebar{width: 262px; left: 70%; top: 0px; position: fixed;}
     .jumbotronic h1{
       
