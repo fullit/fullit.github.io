@@ -23,19 +23,19 @@
 
 <div id="fullpage mobileview">
   <div class="section" id="section0">
-    <div style="background-size: cover; background-image:url('{{ BASE_PATH }}/assets/img/{% if page.img %}{{ page.img }}{% else %}generic.jpg{% endif %}')" class="slide">       
+    <div style="background-size: cover; background-image:url('{{ BASE_PATH }}/assets/img/tablet/{% if page.img %}{{ page.img }}{% else %}generic.jpg{% endif %}')" class="slide">       
         <div class="jumbotronic" style="text-align: center">
           <h1 class="heavy">{{ page.title }}</h1>
           {% if page.tagline %} <h2 class="heavy">{{ page.tagline }}</h2>{% endif %}
         </div>
     </div>        
-    {% if page.title2 %}<div style="background-size: cover; background-image:url('{{ BASE_PATH }}/assets/img/{% if page.img2 %}{{ page.img2 }}{% else %}generic.jpg{% endif %}')" class="slide">
+    {% if page.title2 %}<div style="background-size: cover; background-image:url('{{ BASE_PATH }}/assets/img/tablet/{% if page.img2 %}{{ page.img2 }}{% else %}generic.jpg{% endif %}')" class="slide">
     <div class="jumbotronic" style="text-align: center">
       <h1 class="heavy">{{ page.title2 }}</h1>
     </div>{% endif %}
     </div>
  
-    {% if page.title3 %}<div style="background-size: cover; background-image:url('{{ BASE_PATH }}/assets/img/{% if page.img3 %}{{ page.img3 }}{% else %}generic.jpg{% endif %}')" class="slide">
+    {% if page.title3 %}<div style="background-size: cover; background-image:url('{{ BASE_PATH }}/assets/img/tablet/{% if page.img3 %}{{ page.img3 }}{% else %}generic.jpg{% endif %}')" class="slide">
     <div class="jumbotronic" style="text-align: center">
       <h1 class="heavy">{{ page.title3 }}</h1>{% endif %}
     </div>
