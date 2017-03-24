@@ -14,9 +14,8 @@ keywords: fullpage, html, css, landing page, jekyll, ruby, web marketing, advert
 canonical: https://fullit.github.io/blog
 ---
 {% include JB/setup %}
-{% include themes/bootstrap/nav-bar.html %}
 
-<div class="container">
+
 <ul class="nav nav-pills">
   {% assign categories_list = site.categories %}
   {% include JB/categories_list %}
@@ -30,4 +29,4 @@ canonical: https://fullit.github.io/blog
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
-</div>
+
