@@ -3,7 +3,7 @@
     /* Style for our header texts
     * --------------------------------------- */
     .pcview {
-      visibility: hidden !important;
+      display: none !important;
     }
     .jumbotronic h1{
   
@@ -79,7 +79,7 @@
     /* Style for our header texts
     * --------------------------------------- */
     .mobileview {
-      visibility: hidden !important;
+      display: none !important;
     }
     .sidebar{width: 262px; left: 70%; top: 0px; position: fixed;}
     .jumbotronic h1{
