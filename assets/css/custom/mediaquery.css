@@ -634,7 +634,7 @@
 
 
 @media only screen 
-and (max-device-width : 1000px) 
+and (max-device-width : 2000px) 
 and (orientation : portrait) {
 
       .pcview {
@@ -645,7 +645,7 @@ and (orientation : portrait) {
 
 @media only screen 
 
-(orientation : lanscape) {
+(orientation : landscape) {
 
       .mobileview {
       display: none !important;
