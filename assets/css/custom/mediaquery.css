@@ -642,16 +642,7 @@
   2. https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 */
 
-/* iPhone 6 in portrait & landscape */
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
 
-      .pcview {
-      display: none !important;
-    }
-  
-}
 
 /* iPhone 6 in landscape */
 @media only screen 
@@ -676,16 +667,7 @@ and (orientation : portrait) {
     }
 }
 
-/* iPhone 6 Plus in portrait & landscape */
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) {
 
-      .pcview {
-      display: none !important;
-    }
-  
-}
 
 /* iPhone 6 Plus in landscape */
 @media only screen 
@@ -711,16 +693,7 @@ and (orientation : portrait) {
   
 }
 
-/* iPhone 5 & 5S in portrait & landscape */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) {
 
-      .pcview {
-      display: none !important;
-    }
-  
-}
 
 /* iPhone 5 & 5S in landscape */
 @media only screen 
@@ -751,16 +724,6 @@ and (orientation : portrait) {
   It's noteworthy that these media queries are also the same for iPod Touch generations 1-4.
 */
 
-/* iPhone 2G-4S in portrait & landscape */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-
-      .pcview {
-      display: none !important;
-    }
-  
-}
 
 /* iPhone 2G-4S in landscape */
 @media only screen 
@@ -786,16 +749,7 @@ and (orientation : portrait) {
   
 }
 
-/* iPad in portrait & landscape */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  {
 
-      .pcview {
-      display: none !important;
-    }
-  
-}
 
 /* iPad in landscape */
 @media only screen 
@@ -980,17 +934,7 @@ and (orientation : portrait) {
   or other features for the tablet's Retina display, use the following media queries.
 */
 
-/* Retina iPad in portrait & landscape */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)
-and (-webkit-min-device-pixel-ratio: 2) {
 
-      .pcview {
-      display: none !important;
-    }
-  
-}
 
 /* Retina iPad in landscape */
 @media only screen 
@@ -1025,17 +969,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   like a charm in your responsive design!
 */
 
-/* iPad 1 & 2 in portrait & landscape */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (-webkit-min-device-pixel-ratio: 1) {
 
-      .pcview {
-      display: none !important;
-    }
-  
-}
 
 /* iPad 1 & 2 in landscape */
 @media only screen 
@@ -1063,17 +997,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   
 }
 
-/* iPad mini in portrait & landscape */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)
-and (-webkit-min-device-pixel-ratio: 1) {
 
-      .pcview {
-      display: none !important;
-    }
-  
-}
 
 /* iPad mini in landscape */
 @media only screen 
@@ -1181,9 +1105,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   and (max-device-width: 1280px) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
 
-        .pcview {
-      display: none !important;
-    }
+      
 
 }
 
@@ -1194,9 +1116,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   and (-webkit-min-device-pixel-ratio: 1.5) 
   and (orientation: portrait) {
 
-        .pcview {
-      display: none !important;
-    }
+       
     
 }
 
@@ -1207,9 +1127,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   and (-webkit-min-device-pixel-ratio: 1.5) 
   and (orientation: landscape) {
 
-        .pcview {
-      display: none !important;
-    }
+      
 
 }
 
@@ -1219,10 +1137,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
 
-        .pcview {
-      display: none !important;
-    }
-
+      
 }
 
 /* Kindle Fire HD 8.9" portrait */
@@ -1232,9 +1147,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   and (-webkit-min-device-pixel-ratio: 1.5) 
   and (orientation: portrait) {
 
-        .pcview {
-      display: none !important;
-    }
+      
     
 }
 
