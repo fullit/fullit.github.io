@@ -635,9 +635,19 @@
 
 @media only screen 
 and (max-device-width : 1000px) 
-and (orientation : landscape) {
+and (orientation : portrait) {
 
       .pcview {
+      display: none !important;
+    }
+  
+}
+
+@media only screen 
+
+(orientation : lanscape) {
+
+      .mobileview {
       display: none !important;
     }
   
