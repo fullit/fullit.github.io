@@ -10,16 +10,24 @@ img : 1.jpg
 
 <!-- Stack the columns on mobile by making one full-width and the other half-width -->
 <div class="container-fluid nopadding">
-  <div class="nopadding post">
+  <div class="post">
     <div class="nopadding row">
 
-      <div class="nopadding col-md-6">
+      <div class="col-md-6">
         <img src="http://placehold.it/600x600" class="img-fluid nopadding">
       </div>
 
 
-      <div class="nopadding col-md-6">
-          <p>Spanza</p>
+      <div class="col-md-6">
+
+        <div class="nopadding row">
+          <div class="col-8 col-sm-6">
+            Nested 1
+          </div>
+          <div class="col-4 col-sm-6">
+            Nested 2
+          </div>
+        </div>
 
       </div>
     </div>
