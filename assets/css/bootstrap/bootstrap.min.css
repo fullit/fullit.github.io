@@ -800,6 +800,10 @@ pre code {
         padding-right: 15px;
         padding-left: 15px
     }
+    .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
 }
 
 @media (min-width:768px) {
@@ -807,6 +811,10 @@ pre code {
         padding-right: 15px;
         padding-left: 15px
     }
+    .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
+    }    
 }
 
 @media (min-width:992px) {
@@ -814,6 +822,10 @@ pre code {
         padding-right: 15px;
         padding-left: 15px
     }
+    .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
+    }    
 }
 
 @media (min-width:1200px) {
@@ -821,6 +833,10 @@ pre code {
         padding-right: 15px;
         padding-left: 15px
     }
+    .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
+    }    
 }
 
 @media (min-width:576px) {
