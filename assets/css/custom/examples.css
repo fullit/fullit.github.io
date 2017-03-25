@@ -26,12 +26,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .highlight-container a {
-  color: white !important;
+  color: black !important;
   text-decoration: underline !important;
 }
 
 .highlight-container a:hover {
- color: black;
+ color: white !important;
 }
 
 
