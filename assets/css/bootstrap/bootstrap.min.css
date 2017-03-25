@@ -702,7 +702,9 @@ mark {
 
 .img-fluid {
     max-width: 100%;
-    height: auto
+    height: auto;
+    padding: 0px;
+    margin: 0px;
 }
 
 .img-thumbnail {
