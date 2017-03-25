@@ -25,6 +25,15 @@ h1,h2,h3,h4,h5,h6 {
     color:#fff;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a :hover {
+  color: black;
+}
+
 
 .text-center{text-align:center}
 
