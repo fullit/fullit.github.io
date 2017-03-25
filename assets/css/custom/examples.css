@@ -25,9 +25,13 @@ h1,h2,h3,h4,h5,h6 {
     color:#fff;
 }
 
-a {
-  color: white;
-  text-decoration: underline;
+.highlight-container a {
+  color: white !important;
+  text-decoration: underline !important;
+}
+
+.highlight-container a:hover {
+ color: black;
 }
 
 
