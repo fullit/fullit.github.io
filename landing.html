@@ -10,35 +10,37 @@ img : 1.jpg
 
 <!-- Stack the columns on mobile by making one full-width and the other half-width -->
 <div class="container-fluid">
-<div class="row">
-  <div class="col col-md-6"><img src="http://placehold.it/600x600" class="img-fluid"></div>
-
-
-  <div class="col col-md-6">
-
+  <div class="post">
     <div class="row">
-      <div class="col-8 col-sm-6">
-        Nested 1
-      </div>
-      <div class="col-4 col-sm-6">
-        Nested 2
+      <div class="col col-md-6"><img src="http://placehold.it/600x600" class="img-fluid"></div>
+
+
+      <div class="col col-md-6">
+
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            Nested 1
+          </div>
+          <div class="col-4 col-sm-6">
+            Nested 2
+          </div>
+        </div>
+
       </div>
     </div>
 
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row">
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+
+    <!-- Columns are always 50% wide, on mobile and desktop -->
+    <div class="row">
+      <div class="col-6">.col-6</div>
+      <div class="col-6">.col-6</div>
+    </div>
   </div>
-</div>
-
-<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-<div class="row">
-  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-</div>
-
-<!-- Columns are always 50% wide, on mobile and desktop -->
-<div class="row">
-  <div class="col-6">.col-6</div>
-  <div class="col-6">.col-6</div>
-</div>
 
 </div>
