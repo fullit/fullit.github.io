@@ -8,154 +8,34 @@ img : 1.jpg
 ---
 {% include JB/setup %}
 
-  <div class="wide" style="background-image:url('{{ BASE_PATH }}/assets/img/{% if page.img %}{{ page.img }}{% else %}7.jpg{% endif %}')">
-    <div class="row featurette">
-      <div class="container"  style="background: rgba(0, 0, 0, 0.5); margin-top: 5em;">
-      <div class="col-xs-6">
-          <section class="relateds">
-          <h1 id="navs" style="color:white">{{ page.title }}{% if page.tagline %} <br><small class="subtitle">{{ page.tagline }}</small>{% endif %}</h1>
-          </section>
+<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+<div class="row">
+  <div class="col col-md-6" style="background: url(http://placehold.it/600x600); background-size: cover;"></div>
+
+
+  <div class="col col-md-6">
+
+    <div class="row">
+      <div class="col-8 col-sm-6">
+        Nested 1
       </div>
-      <div class="col-xs-6">
-        <section class="relateds">
-        <h2 style="color:white">On big screens and tablets<br><small class="subtitle">You can add a message or image in this area that will be hide in mobile version.</small></h2>
-        </section>
-        <div class="text-center" style="margin-bottom: 5em"><a href="#" class="btn btn-primary btn-lg">Sign Up</a>
-        <a href="#" class="btn btn-danger btn-lg">Buy Now</a></div>
-      </div></div>
+      <div class="col-4 col-sm-6">
+        Nested 2
+      </div>
     </div>
-  </div>
-  <div class="container">
-  <div class="wide-mobile" style="background-image:url('{{ BASE_PATH }}/assets/img/{% if page.img-mobile %}{{ page.img-mobile }}{% else %}generic.jpg{% endif %}')">
 
-      <div class="col-lg-12">
-        <div class="container"  style="background: rgba(0, 0, 0, 0.5); margin-top: 8em;">
-        <div class="page-headers-small relateds">
-          <h2 id="navs" style="color:white">{{ page.title }}{% if page.tagline %} <br><small class="subtitle">{{ page.tagline }}</small>{% endif %}</h2>
-
-
-      </div></div>
-    </div>
   </div>
 </div>
 
-
-
-<p class="h3">h3. Equal width</p>
-
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-      1 of 2
-    </div>
-    <div class="col">
-      1 of 2
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col">
-      1 of 3
-    </div>
-  </div>
-</div>
-
-<h3>
-  One column width
-  <small class="text-muted">With other class set to col</small>
-</h3>
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col-6">
-      2 of 3 (wider)
-    </div>
-    <div class="col">
-      3 of 3
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col-5">
-      2 of 3 (wider)
-    </div>
-    <div class="col">
-      3 of 3
-    </div>
-  </div>
-</div>
-
-
-<h1 class="display-3">Variable width content</h1>
-
-
-
-<div class="container">
-  <div class="row justify-content-md-center">
-    <div class="col col-lg-2">
-      1 of 3
-    </div>
-    <div class="col-12 col-md-auto">
-      Variable width content
-    </div>
-    <div class="col col-lg-2">
-      3 of 3
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col-12 col-md-auto">
-      Variable width content
-    </div>
-    <div class="col col-lg-2">
-      3 of 3
-    </div>
-  </div>
-</div>
-
-<h1 class="display-3">Reordering</h1>
-
-<div class="container">
-  <div class="row">
-    <div class="col flex-unordered">
-      First, but unordered
-    </div>
-    <div class="col flex-last">
-      Second, but last
-    </div>
-    <div class="col flex-first">
-      Third, but first
-    </div>
-  </div>
-</div>
-
+<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
 <div class="row">
-  <div class="col-sm-8">col-sm-8</div>
-  <div class="col-sm-4">col-sm-4</div>
-</div>
-<div class="row">
-  <div class="col-sm">col-sm</div>
-  <div class="col-sm">col-sm</div>
-  <div class="col-sm">col-sm</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
 </div>
 
-<div class="bg-primary text-white">Nullam id dolor id nibh ultricies vehicula ut id elit.</div>
-<div class="bg-success text-white">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</div>
-<div class="bg-info text-white">Maecenas sed diam eget risus varius blandit sit amet non magna.</div>
-<div class="bg-warning text-white">Etiam porta sem malesuada magna mollis euismod.</div>
-<div class="bg-danger text-white">Donec ullamcorper nulla non metus auctor fringilla.</div>
-<div class="bg-inverse text-white">Cras mattis consectetur purus sit amet fermentum.</div>
-<div class="bg-faded">Cras mattis consectetur purus sit amet fermentum.</div>
+<!-- Columns are always 50% wide, on mobile and desktop -->
+<div class="row">
+  <div class="col-6">.col-6</div>
+  <div class="col-6">.col-6</div>
+</div>
