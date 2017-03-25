@@ -8,6 +8,11 @@
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
 html {
     font-family: 'Gentium Book Basic', cursive;
     line-height: 1.15;
@@ -9835,7 +9840,3 @@ a.text-gray-dark:hover {
 }
 
 
-.nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
-}
