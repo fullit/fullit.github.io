@@ -1,0 +1,156 @@
+---
+layout: landing
+title: Landing
+header: Landing Page
+tagline: "All the elemets to improve the sites with this theme"
+group: navigation
+img : 1.jpg
+---
+{% include JB/setup %}
+
+  <div class="wide" style="background-image:url('{{ BASE_PATH }}/assets/img/{% if page.img %}{{ page.img }}{% else %}7.jpg{% endif %}')">
+    <div class="row featurette">
+      <div class="container"  style="background: rgba(0, 0, 0, 0.5); margin-top: 5em;">
+      <div class="col-xs-6">
+          <section class="relateds">
+          <h1 id="navs" style="color:white">{{ page.title }}{% if page.tagline %} <br><small class="subtitle">{{ page.tagline }}</small>{% endif %}</h1>
+          </section>
+      </div>
+      <div class="col-xs-6">
+        <section class="relateds">
+        <h2 style="color:white">On big screens and tablets<br><small class="subtitle">You can add a message or image in this area that will be hide in mobile version.</small></h2>
+        </section>
+        <div class="text-center" style="margin-bottom: 5em"><a href="#" class="btn btn-primary btn-lg">Sign Up</a>
+        <a href="#" class="btn btn-danger btn-lg">Buy Now</a></div>
+      </div></div>
+    </div>
+  </div>
+  <div class="container">
+  <div class="wide-mobile" style="background-image:url('{{ BASE_PATH }}/assets/img/{% if page.img-mobile %}{{ page.img-mobile }}{% else %}generic.jpg{% endif %}')">
+
+      <div class="col-lg-12">
+        <div class="container"  style="background: rgba(0, 0, 0, 0.5); margin-top: 8em;">
+        <div class="page-headers-small relateds">
+          <h2 id="navs" style="color:white">{{ page.title }}{% if page.tagline %} <br><small class="subtitle">{{ page.tagline }}</small>{% endif %}</h2>
+
+
+      </div></div>
+    </div>
+  </div>
+</div></div>
+
+
+    <hr class="featurette-divider">
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="{{ BASE_PATH }}/assets/img/mockup.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{{ BASE_PATH }}/assets/img/mockup.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{{ BASE_PATH }}/assets/img/mockup.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <!-- Carousel
+      ================================================== -->
+    </div>
+
+    <div class="container marketing">
+      <!-- /.carousel END -->
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="{{ BASE_PATH }}/assets/img/500.jpg" data-src="{{ BASE_PATH }}/assets/img/500.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="{{ BASE_PATH }}/assets/img/500.jpg" data-src="{{ BASE_PATH }}/assets/img/500.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr>
+      <div class="container bs-docs-section">
+
+        <div class="page-headers" id="banner">
+          <div class="row">
+            <div class="col-lg-8 col-md-7 col-sm-6">
+              <h1>Big text sample</h1>
+              <p class="lead">Optimized for legibility</p>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-6">
+            </div>
+          </div>
+          <hr>
+      </div>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <i class="fa fa-rocket fa-5x"></i>
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fa fa-camera-retro fa-5x"></i>
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4 text-center">
+          <i class="fa fa-hand-o-down fa-5x"></i>
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <div style="margin-bottom: 1em"><a href="#" class="btn btn-primary btn-lg">Sign Up</a>
+          <a href="#" class="btn btn-danger btn-lg">Buy Now</a></div>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="{{ BASE_PATH }}/assets/img/500.jpg"data-src="{{ BASE_PATH }}/assets/img/500.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+
+      <!-- /END THE FEATURETTES -->
+
+      
+</div>
