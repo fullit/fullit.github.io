@@ -30,8 +30,9 @@ a {
   text-decoration: none;
 }
 
-a :hover {
+a:hover {
   color: black;
+  text-decoration: underline;
 }
 
 
