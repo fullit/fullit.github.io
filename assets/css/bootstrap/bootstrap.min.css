@@ -12,6 +12,10 @@
   flex-direction: column;
   justify-content: center;
 }
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
@@ -9859,17 +9863,5 @@ a.text-gray-dark:hover {
     .hidden-print {
         display: none!important
     }
-}
-
-
-/*
- * Row with equal height columns
- * --------------------------------------------------
- */
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
 }
 
