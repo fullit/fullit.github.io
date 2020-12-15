@@ -14,9 +14,9 @@ baseurl: "/fullit.github.io"
 #
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
-data-ad-slot: 2973388149
-data-ad-client: ca-pub-9204963049240271
-google_ad_client: ca-pub-9204963049240271
+data-ad-slot: 
+data-ad-client: 
+google_ad_client: 
 
 post_limit: 5
 
@@ -96,7 +96,7 @@ JB :
   comments :
     provider : disqus
     disqus : 
-      short_name : jeky-new-age
+      short_name : 
     #livefyre :
     #  site_id : 
     #intensedebate :
@@ -114,7 +114,7 @@ JB :
   analytics :
     provider : google
     google :
-        tracking_id : 'UA-94080000-1'
+        tracking_id : ''
    # getclicky :
    #   site_id :
    # mixpanel :
